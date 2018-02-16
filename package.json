@@ -1,0 +1,14 @@
+{
+  "name": "journalapp",
+  "version": "1.0.0",
+  "description": "My Journaling app",
+  "main": "Main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "J Daniel Avelares",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

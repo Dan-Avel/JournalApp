@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Daniel's Journal</title>
+		<meta name="author" content="J Daniel Avelares">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<h1 id="date"></h1>
+		<div id="quote-sec">
+			<!-- Quote Section -->
+			<h2>Quote</h2>
+			<div id="display-quote">
+				<p id="quote-text">Quote</p>
+				<p id="quote-author">Author</p>
+				<div id="edit-quote">Edit</div>
+			</div>
+			<form id="quote-form">
+				<label>Quote</label>
+				<textarea id="quote-input"></textarea>
+				<label>Author</label>
+				<input id="author-input" type="text" name="quote-author">
+				<div id="save-quote">Save</div>
+			</form>
+			<!-- Thought Section -->
+			<div id="display-thought">
+				<p id="thought-text">Thoughts on Quote</p>
+				<div id="btn-thought-edit">Edit</div>
+			</div>
+			<form id="thought-form">
+				<label>Thoughts</label>
+				<textarea id="thought-input"></textarea>
+				<div id="btn-thought-save">Save</div>
+			</form>
+		</div>
+
+		<div id="journal-sec">
+			<h2>Journal Entries</h2>
+			<!-- Entries -->
+			<!-- New Entry Form -->
+			<div id="display-entry">
+			</div>
+			<form>
+				<label>Time</label>
+				<input id="entry-time" type="time">
+				<label>Entry</label>
+				<textarea id="entry-text"></textarea>
+				<div id="btn-entry-save">Save</div>
+			</form>
+		</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+</html>

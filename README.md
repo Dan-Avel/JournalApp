@@ -10,8 +10,8 @@ The app should now be viewable in browser, for local machines the default addres
 
 ## Built With
 
-* [NodeJS](http://www.dropwizard.io/1.0.2/docs/) - the web server used
-* [JQuery](https://maven.apache.org/) - The web framework used
+* [NodeJS](https://nodejs.org/en/) - the web server used
+* [JQuery](https://jquery.com/) - The web framework used
 
 ## Authors
 
